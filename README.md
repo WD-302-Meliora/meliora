@@ -62,3 +62,7 @@ To get started with our Angular application, follow these steps:
 # License
 This application is licensed under the MIT License. The MIT License Copyright (c) 2010-2024 Google LLC. https://angular.io/license
 
+# Resources Reference
+https://material.angular.io/components/categories
+
+
