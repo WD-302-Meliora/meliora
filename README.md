@@ -19,29 +19,29 @@ Angular Material is a UI component library for Angular applications, providing a
 # Components
 
 ## 1. Homepage
-   - Introduction to the advocacy cause
+   - Introduction of Meliora
    - Angular Material: Card components for showcasing key information
-   - Call-to-action buttons for getting involved or donating
+   - Call-to-action buttons for getting involved
 
 ## 2. About Us
    - Mission and vision statements
    - Angular Material: Typography for displaying text content
-   - Angular Material: Grid list for displaying team member bios
+   - Angular Material Card: Displaying team members
 
 ## 3. Get Involved
-   - Volunteer opportunities and sign-up forms
-   - Ways to donate or support financially
-   - Angular Material: Buttons and form fields for user interaction
-   
+   - Angular Material Form: Sign-up form
+   - Angular Material: Snackbar component for displaying success or error messages
+   - Angular Material Card: Display Events and Campaigns
+   - 
 ## 4. Resources
-   - Educational materials such as articles, videos, or infographics
-   - Angular Material: Cards or list components for organizing resource links
+   - Educational materials such as articles or videos
+   - Angular Material Card: Cards for Ad and Partners
 
 
 ## 5. Contact Us
-   - Contact form for reaching out to the organization
-   - Angular Material: Form fields and buttons for user input and submission
-   - Angular Material: Snackbar component for displaying success or error messages
+   - Contact Information
+   - Social Media
+   - Map Location
 
 # Key components provided by Angular Material
 Angular Material provides a comprehensive set of components for various UI elements and functionalities. This includes navigation components like toolbar, sidenav, and menu for responsive layouts, layout components such as card, grid list, and divider for organizing content, form components like input fields and select menus for user-friendly forms, dialog and snack-bar components for interactive messages and alerts, and data table components with sorting and pagination for presenting tabular data effectively. Additionally, Angular Material's theming system enables easy customization of component styles and colors to align with the branding of the website.
