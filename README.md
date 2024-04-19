@@ -32,11 +32,10 @@ Angular Material is a UI component library for Angular applications, providing a
    - Angular Material Form: Sign-up form
    - Angular Material: Snackbar component for displaying success or error messages
    - Angular Material Card: Display Events and Campaigns
-   - 
+     
 ## 4. Resources
    - Educational materials such as articles or videos
    - Angular Material Card: Cards for Ad and Partners
-
 
 ## 5. Contact Us
    - Contact Information
