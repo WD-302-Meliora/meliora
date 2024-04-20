@@ -1,0 +1,19 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar {
+    background-color: #008080; /* Teal color */
+  }
+  
+  .mat-toolbar-row {
+    justify-content: space-between;
+  }
+  
+  .get-involved {
+    background-color: #008080 !important; /* Teal color */
+  }
+
+  
+  
+  

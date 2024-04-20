@@ -1,0 +1,131 @@
+.introduction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 100px; /* Add padding to the bottom */
+    max-width: 800px; /* Set maximum width */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 100px; /* Add padding to the bottom */
+    max-width: 800px; /* Set maximum width */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .get-involved-title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #008080;
+  }
+  
+  .introduction-card {
+    background-color: #008080;
+    max-width: 600px;
+    padding: 24px;
+  }
+  
+  .introduction-card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .form-and-image-container {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .form {
+    flex: 2;
+    margin-right: 20px;
+    max-width: 600px;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    margin-top: 16px;
+  }
+  
+  .small-image {
+    width: 200px; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center image */
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #008080;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #008080;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #008080;
+  }
+
+  button[type="submit"] {
+    background-color: #008080; /* Change to the desired background color */
+  }
+
+  .events-container {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 100px; /* Add padding-bottom for white space */
+  }
+  
+  .events {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .event {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .event img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  
+  
+  
+  
+  

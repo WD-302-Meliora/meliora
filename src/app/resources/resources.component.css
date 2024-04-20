@@ -1,0 +1,93 @@
+.resources-container {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+
+  .mat-card-title {
+    color: #008080; /* Change to the desired color */
+    font-size: 30px;
+  }
+  
+  .articles-card,
+  .videos-card {
+    width: 45%; /* Set the width of each card */
+    margin: 0 10px; /* Add margin between the cards */
+  }
+  
+  .article,
+  .video {
+    margin-bottom: 20px;
+  }
+  
+  .article h3,
+  .video h3 {
+    color: #008080;
+    margin-bottom: 5px;
+  }
+  
+  .article a,
+  .video a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .article a:hover,
+  .video a:hover {
+    text-decoration: underline;
+  }
+
+  h1 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #008080;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .you-matter-container {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 50px; /* Add space between the previous section and this container */
+  }
+  
+  .you-matter-container h1 {
+    color: #008080;
+    font-size: 32px;
+  }
+  
+  .image-container {
+    margin-top: 20px; /* Add space between the heading and the image */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+  }
+
+  .partners-container {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 50px; /* Add space between the previous section and this container */
+    padding-bottom: 100px;
+  }
+  
+  .partners-container h1 {
+    color: #008080;
+    font-size: 32px;
+  }
+  
+  .partner-photos {
+    display: flex;
+    justify-content: center; /* Center the photos horizontally */
+    margin-top: 20px; /* Add space between the heading and the photos */
+  }
+  
+  .partner-photos img {
+    width: 200px; /* Set the width of each photo */
+    margin: 0 10px; /* Add space between the photos */
+  }
+  
+  

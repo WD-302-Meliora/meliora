@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+</head>
+<body>
+
+  <section class="about-section">
+    <h2>About Us</h2>
+    <div class="about-card">
+      <p>Welcome to Meliora, a mental health advocacy website dedicated to promoting awareness and providing support for mental health issues. Our mission is to break the stigma surrounding mental health and create a safe space where individuals can find resources, guidance, and community.
+        At Meliora, we believe in the power of education, empathy, and action. Through informative articles, personal stories, and professional guidance, we strive to empower individuals to take control of their mental well-being and seek the help they need.
+        Whether you're struggling with your own mental health or supporting a loved one, Meliora is here for you. Together, we can make a difference and build a brighter future for mental health.</p>
+    </div>
+  </section>
+  
+
+  <section class="mission-vision-container">
+    <div class="mission">
+      <h2 class="mat-display-1">Mission</h2>
+      <p class="mat-body-1">To promote mental health awareness, provide support, and break the stigma surrounding mental illness through education, advocacy, and community engagement. We aim to empower individuals to prioritize their mental well-being, seek help without fear or judgment, and foster a culture of empathy and acceptance.</p>
+    </div>
+    
+    <div class="vision">
+      <h2 class="mat-display-1">Vision</h2>
+      <p class="mat-body-1">A world where mental health is recognized, understood, and valued, and where everyone has access to the resources and support they need to thrive. We envision a society where mental health is prioritized in every aspect of life, where mental illness is met with compassion and where no one feels misunderstood in their struggles.</p>
+    </div>
+  </section>
+  
+
+
+  <!-- Team Members Section -->
+  <section class="team-members">
+    <h2>Meet Our Team</h2>
+    <div class="card">
+      <mat-card class="example-card" *ngFor="let member of teamMembers">
+        <img mat-card-image src="{{ member.image }}" alt="{{ member.name }}">
+        <mat-card-content>
+          <h3>{{ member.name }}</h3>
+          <p>{{ member.position }}</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </section>
+
+</body>
+</html>

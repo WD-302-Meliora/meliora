@@ -1,0 +1,59 @@
+.contact-container {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 50px; /* Add space above the container */
+    padding-bottom: 100px;
+  }
+  
+  .contact-container h1 {
+    color: #008080;
+    font-size: 32px;
+  }
+  
+  .contact-image {
+    margin-top: 20px; /* Add space between the heading and the image */
+  }
+  
+  .social-media-container {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 50px; /* Add space above the container */
+    padding-bottom: 100px;
+  }
+  
+  .social-media-container h1 {
+    color: #008080;
+    font-size: 32px;
+  }
+  
+  .social-icons {
+    margin-top: 20px; /* Add space between the heading and the icons */
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px; /* Add space between the icons */
+  }
+  
+  .social-icons img {
+    width: 100px; /* Set the width of the icons */
+  }
+
+  .headquarters-container {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 50px; /* Add some top margin for spacing */
+    padding-bottom: 100px;
+  }
+  
+  .headquarters-container h1 {
+    font-size: 28px; /* Adjust the font size of the heading */
+    color: #008080; /* Set the color of the heading */
+  }
+  
+  .headquarters-container img {
+    width: 100%; /* Make the image fill the container width */
+    max-width: 600px; /* Limit the maximum width of the image */
+    margin-top: 20px; /* Add some top margin for spacing */
+  }
+  
+  
+ 
+  

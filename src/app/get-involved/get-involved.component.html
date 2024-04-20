@@ -1,0 +1,69 @@
+<div class="introduction-container">
+  <mat-card>
+    <mat-card-header>
+    </mat-card-header>
+    <mat-card-content>
+      <h1>Get Involved!</h1>
+      <mat-card class="introduction-card">
+        <mat-card-content>
+          <p>
+            Join us in our mission to promote mental health awareness and support individuals in need by filling out the form below. Your participation is crucial in fostering a supportive community and breaking down the stigma surrounding mental health. Through this form, you can express your interest in various advocacy activities such as volunteering, organizing events, or sharing personal experiences. Together, we can create a safe space for open dialogue, provide valuable resources, and advocate for accessible mental health services. Your involvement makes a difference in promoting mental well-being and empowering those facing mental health challenges. Thank you for being a part of our advocacy journey.
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </mat-card-content>
+  </mat-card>
+</div>
+
+<div class="form-container">
+  <mat-card>
+    <mat-card-content>
+      <h1>Sign up here</h1>
+      <div class="form-and-image-container">
+        <!-- Form -->
+        <form (ngSubmit)="submitForm()" #form="ngForm" class="form">
+          <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput type="text" name="name" ngModel required>
+            <mat-error *ngIf="form.controls['name'].invalid">Name is required</mat-error>
+          </mat-form-field>
+          <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" name="email" ngModel required email>
+            <mat-error *ngIf="form.controls['email'].invalid">Please enter a valid email</mat-error>
+          </mat-form-field>
+          <mat-form-field appearance="fill">
+            <mat-label>Message</mat-label>
+            <textarea matInput name="message" ngModel required></textarea>
+            <mat-error *ngIf="form.controls['message'].invalid">Message is required</mat-error>
+          </mat-form-field>
+          <button mat-raised-button color="primary" type="submit">Submit</button>
+        </form>
+
+        <!-- Image -->
+        <div class="image-container">
+          <img src="https://images.pexels.com/photos/3184423/pexels-photo-3184423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image description" class="small-image">
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
+
+<div class="events-container">
+  <mat-card>
+    <mat-card-content>
+      <h1>Events and Campaigns</h1>
+      <div class="events">
+        <div class="event">
+          <img src="https://images.pexels.com/photos/3856027/pexels-photo-3856027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Event 1">
+        </div>
+        <div class="event">
+          <img src="https://images.pexels.com/photos/3719037/pexels-photo-3719037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Event 2">
+        </div>
+        <div class="event">
+          <img src="https://images.pexels.com/photos/1709003/pexels-photo-1709003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Event 3">
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
